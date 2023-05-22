@@ -10,9 +10,9 @@
   ],
   "private": true,
   "scripts": {
-    "predeploy": "npm run react-app:build",
-    "deploy": "gh-pages -d react-app:build",
-    "react-app:build": "yarn workspace @my-app/react-app build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "build": "yarn workspace @my-app/react-app build",
     "react-app:eject": "yarn workspace @my-app/react-app eject",
     "react-app:ipfs": "yarn workspace @my-app/react-app ipfs",
     "start": "yarn workspace @my-app/react-app start",
